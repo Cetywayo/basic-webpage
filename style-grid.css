@@ -1,0 +1,176 @@
+body{
+    background-image: url(./back01.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment:fixed;
+    background-size:cover;
+    backdrop-filter: brightness(0.3);
+  
+}
+p{color: #e3e8ec;}
+
+.h5, h5, h3, h4, h2, h1 {
+    font-size: 1.25rem;
+    color: white;
+}
+.table-container p, h5 {
+    text-align: center;
+}
+
+section.footer p {
+    margin-bottom: 0px;
+    padding: 6px;
+    text-align: center;
+}
+
+section#history-section img {
+    width: 221px;
+    height: 250px;
+}
+
+section#history-section img {
+    float: right;
+    padding: 12px;
+}
+section#history-section01 img {
+    float: left;
+    padding: 12px;
+}
+section#history-section02 img {
+    float: right;
+
+}
+
+section#history-section {
+    margin-bottom: 40px;
+    height: 300px;
+    width: 33%;
+    padding: 20px;
+}
+
+section#history-section02 {
+    margin-bottom: 40px;
+    height: 300px;
+    width: 33%;
+    padding: 20px;
+}
+section#history-section01 {
+    margin-bottom: 40px;
+    height: 300px;
+    width: 33%;
+    padding: 20px;
+}
+
+section.footer {
+    background-color: #3278c9;
+    /* padding-bottom: 0px; */
+}
+
+table {
+    /* border-collapse: collapse; */
+    background-color: #3278c9;
+    color: wheat;
+    
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+text{color: cornsilk;}
+.menus {
+    text-align: center;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menus a.active {
+    background-color:#e3e8ec;
+    color: black;
+}
+
+  .menus a {
+   text-align: center;
+   text-decoration: none;
+   padding: 14px 17px;
+   font-size: 25px;
+   color: wheat;
+  }
+#city-section img{
+    float: right;
+}
+
+div#first-sec img {
+    float: left;
+}
+
+div#city-section {
+    margin-bottom: 40px;
+    margin-top: 60px;
+    height: 400px;
+    padding: 20px;
+}
+
+section#lang-section {
+    padding: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+div#first-sec {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    height: 300px;
+}
+.text {
+    background: #e1e8ee;
+    
+}
+#first-sec{
+    background-color: #e1e8ee;
+    width: 40%;
+}
+.text p {
+    
+    color: black;
+}
+
+#first-sec p{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+div#first-sec p {
+    color: black;
+    float: right;
+    padding: 15px
+  
+}
+
+
+
+
+
