@@ -3,9 +3,31 @@
     padding: 3%;
 }
 
-@media screen and (min-width: 550px) {
-    
-  }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    section#city img {
+        width: 100% !important;
+    }
+
+    .row #places .col-4 {
+        width: 100% !important;
+    }
+
+  
+
+    th, td {
+        
+        font-size: 25px !important;
+    }
+
+    p {
+        font-size: 21px !important;
+       
+    }
+    h4 {
+        font-size: 30px !important;
+    }
+   
+    }
 
   body {
     opacity: 09;
@@ -81,4 +103,19 @@ div#city-section img {
 }
 div#first-sec {
     margin-top: 60px;
+}
+
+@media only screen and (min-width: 45em){
+.col-4 {
+    width: 100%;
+}
+ 
+}
+
+#last-section {
+    padding: 13px;
+    margin-top: 60px;
+}
+section#lang-section p {
+    text-align: center;
 }
