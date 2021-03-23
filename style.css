@@ -80,6 +80,11 @@ p{
     padding: 55px;
     
 }
+
+h1, h2, h3, h4, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
 #city{
     height: 300px;
     padding: 60px;
@@ -131,7 +136,7 @@ h4, h2, h3, h1 {
     color: whitesmoke;
     font-weight: bold;
     text-transform: capitalize;
-    font-size: 20px;
+  
 }
 h4{
     font-size: 18px;
