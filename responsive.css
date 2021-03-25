@@ -48,6 +48,10 @@ section#history-section02 {
         
     }
 
+    .hom img {
+        float: none;
+    }
+
     section#history-section {
         flex-direction: column;
     }
