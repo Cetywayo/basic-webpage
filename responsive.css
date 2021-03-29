@@ -21,7 +21,7 @@
     .pic-box {
         width: 50%;
     }
-    .sec02 {
+    .sec-02 {
         order: 1;
     }
     .text01 {
@@ -135,7 +135,7 @@ section#history-section02 {
         width: 100%;
     }
     #city {
-        height: 865px;
+        height: 1500px;
         
     }
 
@@ -179,17 +179,70 @@ section#history-section02 {
         float: none;
         width: 100%;
     }
-    .sec02 {
+    .sec-02 {
         order: 1;
+        flex:auto;
     }
     .text02 {
         order: 2;
     }
+    p {
+        font-size: 36px;
+    }
+
+
+section.hom p {
+    margin-left: 0px;
+    font-size: 31px;
+    
+}
+
+    th, td {
+        
+        font-size: 43px;
+    }
+    
+
+    #lang-section {
+        height: 750px;
+        
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+    .menus a {
+        
+        font-size: 40px;
+        
+    }
+
+
+    .cbd-ct img {
+        height: 429px;
+        margin-top: 65px;
+    }
+
     }
 
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
-        .sec-pic {
-            width: 126%;
+        
+        .cbd-ct img {
+            height: 348px;
+        }
+    } 
+
+    @media only screen and (min-device-width : 1024px) and (max-device-width : 1440px) {
+
+        
+        .sec-02 {
+            
+            flex:auto;
         }
     } 

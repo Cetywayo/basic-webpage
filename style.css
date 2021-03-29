@@ -35,7 +35,10 @@ section#h-section {
 
 
 
-
+.sec-02 {
+   
+    flex:auto;
+}
 
 
 h1{
@@ -117,11 +120,7 @@ p{
     padding: 55px;
     
 }
-.box1 img {
-    height: 220px;
-    width: 200px;
-    margin-top: 37px;
-}
+
 
 
 .box1 p {
