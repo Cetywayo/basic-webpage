@@ -1,146 +1,165 @@
-#history-section img{
-    float: left;
-    padding: 3%;
+#history-section img {
+	float: left;
+	padding: 3%;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    section#city img {
-        width: 100% !important;
-    }
-
-    .row #places .col-4 {
-        width: 100% !important;
-    }
-
-    #first-sec .col-4 {
-        width: 49.33%;
-    }
-
-    th, td {
-        
-        font-size: 25px !important;
-    }
-
-    p {
-        font-size: 21px !important;
-       
-    }
-    h4 {
-        font-size: 30px !important;
-    }
-
-   
-    }
-
-  body {
-    opacity: 09;
-    background-image: url(./back01.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-attachment: fixed;
-    background-size: cover;
-    backdrop-filter: brightness(0.20);
+.sec-pic {
+	float: right;
 }
-p{
-    color: whitesmoke;
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	section#city img {
+		width: 100% !important;
+	}
+	.sec-pic {
+		all: unset
+	}
+	.sec-pic {
+        float: left;
+        padding: 10px;
+    
+	}
+	.row #places .col-4 {
+		width: 100% !important;
+	}
+	#first-sec .col-4 {
+		width: 49.33%;
+	}
+	th,
+	td {
+		font-size: 25px !important;
+	}
+	p {
+		font-size: 21px !important;
+	}
+	h4 {
+		font-size: 30px !important;
+	}
 }
-.h5, h5, h3, h4, h2, h1 {
-    font-size: 1.25rem;
-    color: white;
+
+body {
+	opacity: 09;
+	background-image: url(./back01.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+	background-size: cover;
+	backdrop-filter: brightness(0.20);
 }
-.table-container p, h5 {
-    text-align: center;
+
+p {
+	color: whitesmoke;
+}
+
+.h5,
+h5,
+h3,
+h4,
+h2,
+h1 {
+	font-size: 1.25rem;
+	color: white;
+}
+
+.table-container p,
+h5 {
+	text-align: center;
 }
 
 section.footer p {
-    margin-bottom: 0px;
-    padding: 6px;
-    text-align: center;
-}section.footer {
-    background-color: #3278c9;
-    /* padding-bottom: 0px; */
+	margin-bottom: 0px;
+	padding: 6px;
+	text-align: center;
+}
+
+section.footer {
+	background-color: #3278c9;
+	/* padding-bottom: 0px; */
 }
 
 table {
-    /* border-collapse: collapse; */
-    background-color: #3278c9;
-    color: wheat;
-    
+	/* border-collapse: collapse; */
+	background-color: #3278c9;
+	color: wheat;
 }
-th, td {
-    padding: 15px;
-    text-align: left;
-    color: #fff;
-  }
-  .menus {
-    text-align: center;
-    padding-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+
+th,
+td {
+	padding: 15px;
+	text-align: left;
+	color: #fff;
+}
+
+.menus {
+	text-align: center;
+	padding-bottom: 0px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 div#first-sec p {
-    font-size: 28px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
 }
+
 .menus a.active {
-    background-color:#e3e8ec;
-    color: black;
+	background-color: #e3e8ec;
+	color: black;
 }
 
-  .menus a {
-   text-align: center;
-   text-decoration: none;
-   padding: 14px 17px;
-   font-size: 20px;
-   color: wheat;
-  }
-
-  section#city {
-    padding: 13px;
-}
-
-  p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-h1,h2,h3,h4,h5{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-}
-
-
-
-div#first-sec {
-    margin-top: 60px;
-}
-
-@media only screen and (min-width: 45em){
-.col-4 {
-    width: 100%;
-}
- 
-}
-
-#last-section {
-    padding: 13px;
-    margin-top: 60px;
-}
-section#lang-section p {
-    text-align: center;
-}
-
-
-
-div#last-section img {
-    padding: 4px;
-}
-
-div#first-sec img {
-    margin-left: -23px;
+.menus a {
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 17px;
+	font-size: 20px;
+	color: wheat;
 }
 
 section#city {
-    padding: 30px;
+	padding: 13px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+div#first-sec {
+	margin-top: 60px;
+}
+
+@media only screen and (min-width: 45em) {
+	.col-4 {
+		width: 100%;
+	}
+}
+
+#last-section {
+	padding: 13px;
+	margin-top: 60px;
+}
+
+section#lang-section p {
+	text-align: center;
+}
+
+div#last-section img {
+	padding: 4px;
+}
+
+div#first-sec img {
+	margin-left: -23px;
+}
+
+section#city {
+	padding: 30px;
 }
